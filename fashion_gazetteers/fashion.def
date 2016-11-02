@@ -1,0 +1,4 @@
+prod.lst:prod:::Lookup
+brand.lst:brand:::Lookup
+seg.lst:seg:::Lookup
+color.lst:color:::Lookup

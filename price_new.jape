@@ -1,0 +1,8 @@
+Phase: SegmentAnnotator
+Input: Token Lookup
+Options: control = appelt
+Rule: SegmentAnnotator1
+({Token.string == "for"}{Lookup.majorType == seg})
+:segment
+-->
+:segment.SEG= {rule = "SegmentAnnotator1"}
